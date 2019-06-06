@@ -1,0 +1,27 @@
+{
+  "name": "xfinity-library",
+  "version": "1.0.0",
+  "description": "This library will retrieve your Xfinity data usage for the current month and previous four months.",
+  "main": "index.js",
+  "scripts": {  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremyKnudsen/xfinity-usage-library.git"
+  },
+  "keywords": [
+    "xfinity",
+    "usage",
+    "quota"
+  ],
+  "author": "Jeremy Knudsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeremyKnudsen/xfinity-usage-library/issues"
+  },
+  "homepage": "https://github.com/JeremyKnudsen/xfinity-usage-library#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
+  }
+}
