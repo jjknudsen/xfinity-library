@@ -8,8 +8,6 @@ I ended up building an entire Node.js application which uses this library as a l
 
 ## Usage
 
----
-
 I am using this library as a local module right now. The steps below will get you up and running with a simple Node.js application. This assumes this library is in the same parent folder as `test-app`
 
 This library uses two environment variables for your Xfinity username and password. Be sure these variables are set
@@ -20,8 +18,6 @@ This library uses two environment variables for your Xfinity username and passwo
 
 ## Create and run your own sample app
 
----
-
 ```sh
 mkdir test-app
 cd test-app
@@ -31,8 +27,6 @@ npm install --save <path to xfinity library>
 ```
 
 ## Then create `index.js` in the `test-app` folder
-
----
 
 ```javascript
 //index.js
@@ -48,8 +42,6 @@ checker.retrieveDataFromXfinity().then((data) => {
 ```
 
 ## Finally, run the app
-
----
 
 _don't forget the environment variables_
 
